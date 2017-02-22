@@ -22,6 +22,7 @@ public class LieTouJobInfo implements AfterExtractor {
     private String salary="";
     @ExtractBy("//div[@class='title-info']/h3/a/text()")
     private String company="";
+
     @ExtractBy("//div[@class='content content-word']/allText()")
     private String description="";
     private String source="liepin.com";
@@ -94,5 +95,7 @@ public class LieTouJobInfo implements AfterExtractor {
 
     public void afterProcess(Page page) {
     	System.out.println("aabbcc");
+        System.out.println("3306");
+        System.out.println("192.168.10.1:7083");
     }
 }
