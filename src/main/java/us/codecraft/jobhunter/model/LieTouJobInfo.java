@@ -93,6 +93,6 @@ public class LieTouJobInfo implements AfterExtractor {
     }
 
     public void afterProcess(Page page) {
-    	System.out.println("aa");
+    	System.out.println("aabbcc");
     }
 }
