@@ -94,6 +94,7 @@ public class LieTouJobInfo implements AfterExtractor {
     }
 
     public void afterProcess(Page page) {
+    	System.out.println("haha");
     	System.out.println("aabbcc");
         System.out.println("3306");
         System.out.println("192.168.10.1:7083");
